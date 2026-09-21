@@ -1,0 +1,52 @@
+[
+    {
+        "directory": "/home/leonardo/UFRGS/UFRGS - Engenharia de Computação/Cadeiras Eletivas/INF01008 - Programação Paralela/trabalho-1-openmp/ga_seq",
+        "command": "gcc -O2 -g -std=c11 -Wall -Wextra -Wpedantic -Iinclude -c main.c -o main.o",
+        "file": "main.c"
+    },
+    {
+        "directory": "/home/leonardo/UFRGS/UFRGS - Engenharia de Computação/Cadeiras Eletivas/INF01008 - Programação Paralela/trabalho-1-openmp/ga_seq",
+        "command": "gcc -O2 -g -std=c11 -Wall -Wextra -Wpedantic -Iinclude -c ga.c -o ga.o",
+        "file": "ga.c"
+    },
+    {
+        "directory": "/home/leonardo/UFRGS/UFRGS - Engenharia de Computação/Cadeiras Eletivas/INF01008 - Programação Paralela/trabalho-1-openmp/ga_seq",
+        "command": "gcc -O2 -g -std=c11 -Wall -Wextra -Wpedantic -Iinclude -c population.c -o population.o",
+        "file": "population.c"
+    },
+    {
+        "directory": "/home/leonardo/UFRGS/UFRGS - Engenharia de Computação/Cadeiras Eletivas/INF01008 - Programação Paralela/trabalho-1-openmp/ga_seq",
+        "command": "gcc -O2 -g -std=c11 -Wall -Wextra -Wpedantic -Iinclude -c reproduction.c -o reproduction.o",
+        "file": "reproduction.c"
+    },
+    {
+        "directory": "/home/leonardo/UFRGS/UFRGS - Engenharia de Computação/Cadeiras Eletivas/INF01008 - Programação Paralela/trabalho-1-openmp/ga_seq",
+        "command": "gcc -O2 -g -std=c11 -Wall -Wextra -Wpedantic -Iinclude -c rng.c -o rng.o",
+        "file": "rng.c"
+    },
+    {
+        "directory": "/home/leonardo/UFRGS/UFRGS - Engenharia de Computação/Cadeiras Eletivas/INF01008 - Programação Paralela/trabalho-1-openmp/ga_seq_paralelizado",
+        "command": "gcc -O2 -g -std=c11 -Wall -Wextra -Wpedantic -fopenmp -Iinclude -c main.c -o main.o",
+        "file": "main.c"
+    },
+    {
+        "directory": "/home/leonardo/UFRGS/UFRGS - Engenharia de Computação/Cadeiras Eletivas/INF01008 - Programação Paralela/trabalho-1-openmp/ga_seq_paralelizado",
+        "command": "gcc -O2 -g -std=c11 -Wall -Wextra -Wpedantic -fopenmp -Iinclude -c ga.c -o ga.o",
+        "file": "ga.c"
+    },
+    {
+        "directory": "/home/leonardo/UFRGS/UFRGS - Engenharia de Computação/Cadeiras Eletivas/INF01008 - Programação Paralela/trabalho-1-openmp/ga_seq_paralelizado",
+        "command": "gcc -O2 -g -std=c11 -Wall -Wextra -Wpedantic -fopenmp -Iinclude -c population.c -o population.o",
+        "file": "population.c"
+    },
+    {
+        "directory": "/home/leonardo/UFRGS/UFRGS - Engenharia de Computação/Cadeiras Eletivas/INF01008 - Programação Paralela/trabalho-1-openmp/ga_seq_paralelizado",
+        "command": "gcc -O2 -g -std=c11 -Wall -Wextra -Wpedantic -fopenmp -Iinclude -c reproduction.c -o reproduction.o",
+        "file": "reproduction.c"
+    },
+    {
+        "directory": "/home/leonardo/UFRGS/UFRGS - Engenharia de Computação/Cadeiras Eletivas/INF01008 - Programação Paralela/trabalho-1-openmp/ga_seq_paralelizado",
+        "command": "gcc -O2 -g -std=c11 -Wall -Wextra -Wpedantic -fopenmp -Iinclude -c rng.c -o rng.o",
+        "file": "rng.c"
+    }
+]
